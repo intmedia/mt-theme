@@ -44,6 +44,7 @@
 	&:hover,
 	&:focus,
 	&:active {
+		color: @mt-navigation-active-item-color;
 		background: @mt-navigation-active-item-background;
 		border-color: @mt-navigation-active-item-border-color;
 	}
@@ -51,8 +52,8 @@
 
 
 .navigation__item--active {
-	background: #fff;
-	border: 1px solid #ddd;
+	background: @mt-navigation-active-item-background;
+	border: 1px solid @mt-navigation-active-item-border-color;
 
 	&,
 	&:visited,
