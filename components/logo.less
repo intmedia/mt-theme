@@ -1,0 +1,60 @@
+
+@mt-logo-name-color: #000;
+@mt-logo-name-font-size: 150%;
+
+@mt-logo-motto-color: gray;
+
+
+.logo {
+	margin-bottom: 1em;
+}
+
+
+.logo--on-left {
+	float: left;
+	margin-bottom: 0;
+}
+
+
+.logo__inner {
+}
+
+
+.logo__name,
+.logo__motto {
+	display: block;
+}
+
+
+.logo__name {
+	font-size: @mt-logo-name-font-size;
+	font-weight: bold;
+	text-decoration: none;
+	margin-right: 0.5em;
+
+	&,
+	&:visited,
+	&:hover,
+	&:focus,
+	&:active {
+		color: @mt-logo-name-color;
+	}
+}
+
+
+.logo__motto {
+	color: @mt-logo-motto-color;
+}
+
+
+.logo--inlined {
+	.logo__name,
+	.logo__motto {
+		display: inline-block;
+	}
+}
+
+
+.logo--centered {
+	text-align: center;
+}

@@ -1,0 +1,14 @@
+{
+	"name": "intmedia/mt-theme",
+	"type": "library",
+	"description": "Default LESS theme",
+	"license": "BSD-3-Clause",
+	"require": {
+		"typro/typro": "^3.0"
+	},
+	"extra": {
+		"assets-files": [
+			"components"
+		]
+	}
+}

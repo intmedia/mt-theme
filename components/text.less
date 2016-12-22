@@ -1,0 +1,44 @@
+
+@mt-text-max-width: 54em;
+@mt-text-perex-color: #666;
+
+
+.text {
+	margin-bottom: 1em;
+}
+
+
+.text__image {
+	display: block;
+	margin-bottom: 1em;
+
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+
+.text__header {
+	#typro.font-georgia();
+	text-align: center;
+	margin-top: 0;
+}
+
+
+.text__perex {
+	#typro.font-georgia();
+	color: @mt-text-perex-color;
+	font-size: 125%;
+	margin-top: 0;
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+
+.text__content {
+	max-width: @mt-text-max-width;
+	font-size: 112.5%;
+	margin-left: auto;
+	margin-right: auto;
+}
