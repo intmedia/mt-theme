@@ -16,7 +16,21 @@ composer require frontpack/composer-assets-plugin
 
 ## Components
 
-### layout
+``` less
+@import 'assets/typro/typro/base/base';
+@import 'assets/typro/typro/mixins/fonts';
+@import 'assets/intmedia/mt-theme/components/page';
+@import 'assets/intmedia/mt-theme/components/header';
+@import 'assets/intmedia/mt-theme/components/footer';
+@import 'assets/intmedia/mt-theme/components/content';
+@import 'assets/intmedia/mt-theme/components/logo';
+@import 'assets/intmedia/mt-theme/components/navigation';
+@import 'assets/intmedia/mt-theme/components/button';
+@import 'assets/intmedia/mt-theme/components/text';
+@import 'assets/intmedia/mt-theme/components/video';
+```
+
+### layout/page
 
 ``` html
 <div class="wrapper">
@@ -26,20 +40,6 @@ composer require frontpack/composer-assets-plugin
 
 * `@mt-page-max-width: 70em;`
 * `@mt-page-border-radius: 3px;`
-
-``` less
-@import 'bower_components/typro/base/base';
-@import 'bower_components/typro/mixins/fonts';
-@import 'bower_components/mt-theme/components/page';
-@import 'bower_components/mt-theme/components/header';
-@import 'bower_components/mt-theme/components/footer';
-@import 'bower_components/mt-theme/components/content';
-@import 'bower_components/mt-theme/components/logo';
-@import 'bower_components/mt-theme/components/navigation';
-@import 'bower_components/mt-theme/components/button';
-@import 'bower_components/mt-theme/components/text';
-@import 'bower_components/mt-theme/components/video';
-```
 
 
 ### header
