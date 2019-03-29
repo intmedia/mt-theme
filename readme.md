@@ -26,7 +26,7 @@ composer require frontpack/composer-assets-plugin
 @import 'assets/intmedia/mt-theme/components/logo';
 @import 'assets/intmedia/mt-theme/components/navigation';
 @import 'assets/intmedia/mt-theme/components/button';
-@import 'assets/intmedia/mt-theme/components/text';
+@import 'assets/intmedia/mt-theme/components/post';
 @import 'assets/intmedia/mt-theme/components/video';
 ```
 
@@ -153,23 +153,23 @@ composer require frontpack/composer-assets-plugin
 * `.button--bordered`
 
 
-### text
+### post
 
 ``` html
-<div class="text">
-	<div class="text__image">
+<div class="post">
+	<div class="post__image">
 		<img src="photo.img" alt="">
 	</div>
-	<h1 class="text__header">Lorem ipsum dolor sit</h1>
-	<p class="text__perex">Lorem ipsum dolo rsit</p>
-	<div class="text__content">
+	<h1 class="post__header">Lorem ipsum dolor sit</h1>
+	<p class="post__perex">Lorem ipsum dolo rsit</p>
+	<div class="post__content">
 		<p>Lorem ipsum</p>
 	</div>
 </div>
 ```
 
-* `@mt-text-max-width: 54em;`
-* `@mt-text-perex-color: #666;`
+* `@mt-post-max-width: 54em;`
+* `@mt-post-perex-color: #666;`
 
 
 ### video
