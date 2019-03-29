@@ -25,7 +25,6 @@ composer require frontpack/composer-assets-plugin
 @import 'assets/intmedia/mt-theme/components/content';
 @import 'assets/intmedia/mt-theme/components/logo';
 @import 'assets/intmedia/mt-theme/components/navigation';
-@import 'assets/intmedia/mt-theme/components/button';
 @import 'assets/intmedia/mt-theme/components/post';
 @import 'assets/intmedia/mt-theme/components/video';
 ```
@@ -135,22 +134,6 @@ composer require frontpack/composer-assets-plugin
 
 * `.navigation--centered`
 * `.navigation--on-right`
-
-
-### button
-
-``` html
-<a href="#" class="button">Koupit</a>
-```
-
-* `@mt-button-border-radius: @mt-page-border-radius;`
-* `@mt-button-color: #fff;`
-* `@mt-button-background-color: #0d79a7;`
-* `@mt-button-border-color: @mt-button-background-color;`
-* `@mt-button-inline-color: darken(@mt-button-background-color, 10%);`
-* `@mt-button-inline-background-color: transparent;`
-
-* `.button--bordered`
 
 
 ### post
